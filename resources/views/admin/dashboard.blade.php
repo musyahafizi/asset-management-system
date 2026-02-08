@@ -126,11 +126,7 @@
                         <a href="{{ route('admin.laptop') }}"><i class="fa fa-laptop fa-5x"></i><h4>View Laptop</h4></a>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-                    <div class="div-square">
-                        <a href="{{ route('admin.desktop') }}"><i class="fa fa-desktop fa-5x"></i><h4>View Desktop</h4></a>
-                    </div>
-                </div>
+              
                 <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
                     <div class="div-square">
                         <a href="{{ route('admin.staff') }}"><i class="fa fa-users fa-5x"></i><h4>View Staff</h4></a>
@@ -146,11 +142,7 @@
                         <a href="{{ route('admin.laptop.insert') }}"><i class="fa fa-edit fa-5x"></i><h4>Insert Laptop</h4></a>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
-                    <div class="div-square">
-                        <a href="{{ route('admin.desktop.insert') }}"><i class="fa fa-edit fa-5x"></i><h4>Insert Desktop</h4></a>
-                    </div>
-                </div>
+              
                 <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
                     <div class="div-square">
                         <a href="{{ route('admin.batch.create') }}"><i class="fa fa-folder fa-5x"></i><h4>Insert Batch</h4></a>
